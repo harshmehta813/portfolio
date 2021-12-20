@@ -22,16 +22,10 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… ¯\_(ツ)_/¯
               <br />
-              <br />
               My field of Interest's are building new
               <i>
-                <b className="purple"> Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple"> Web Technologies and Products </b>
               </i>
-              <br />
               <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
@@ -43,7 +37,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React and Redux</b>
               </i>
             </p>
           </Col>
@@ -87,9 +81,6 @@ function Home2() {
               </div>
             </div>
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
