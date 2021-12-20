@@ -11,6 +11,7 @@ import Resume from "./Components/Resume/ResumeNew";
 import ScrollToTop from "./Components/ScrollToTop";
 import "./styles.css";
 import "./App.css";
+import Contact from "./Components/Contact/Contact";
 
 export default function App() {
   const [load, upadateLoad] = useState(true);
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>

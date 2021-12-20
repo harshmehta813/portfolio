@@ -13,7 +13,88 @@ html {
 
   --imp-text-color: #c770f0;
 }
+.material-icons-outlined {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
 
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  height: 700px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px auto;
+  gap: 1rem;
+}
+.con-det {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+a:hover {
+  color: white;
+  box-shadow: 0 0 10px #87209e;
+}
+@media (max-width: 375px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    margin: auto;
+  }
+  .con-det {
+    font-size: 18px;
+    margin: 0;
+  }
+  .home-social-icons {
+    position: relative !important;
+    display: inline-block !important;
+    width: 2em !important;
+    height: 2em !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    line-height: 2em !important;
+    background: rgba(255, 255, 255, 0.972) !important;
+    border-radius: 50% !important;
+    transition: 0.5s !important;
+  }
+}
 .purple {
   color: var(--imp-text-color) !important;
 }
