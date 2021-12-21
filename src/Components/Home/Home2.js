@@ -8,6 +8,9 @@ import {
   AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import PlaceIcon from "@mui/icons-material/Place";
 
 function Home2() {
   return (
@@ -54,29 +57,36 @@ function Home2() {
             </h1>
             <div className="contact">
               <div>
-                <span className=" icon-colour  home-social-icons material-icons">
-                  phone
-                </span>
+                <PhoneIcon
+                  color="secondary"
+                  className="con_ico"
+                  sx={{ fontSize: 45 }}
+                />
                 <a href="tel:+917069896660" className="con-det">
                   +91 70698 96660
                 </a>
               </div>
               <div>
-                <span className="material-icons icon-colour  home-social-icons">
-                  email
-                </span>
+                <EmailIcon
+                  className="con_ico"
+                  color="secondary"
+                  sx={{ fontSize: 45 }}
+                />
                 <a
                   href="mailto:harshmehta813@gmail.com"
                   target="_blank"
+                  rel="noreferrer"
                   className="con-det"
                 >
                   harshmehta813@gmail.com
                 </a>
               </div>
               <div>
-                <span className="material-icons icon-colour  home-social-icons">
-                  place
-                </span>
+                <PlaceIcon
+                  color="secondary"
+                  className="con_ico"
+                  sx={{ fontSize: 45 }}
+                />
                 <p className="con-det">Jamnagar, Gujarat</p>
               </div>
             </div>

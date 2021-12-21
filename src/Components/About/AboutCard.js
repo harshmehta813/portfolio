@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-
+import MovieIcon from "@mui/icons-material/Movie";
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
+import ScreenSearchDesktopIcon from "@mui/icons-material/ScreenSearchDesktop";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
@@ -17,13 +18,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <MovieIcon /> Watching Movies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Scientific Books
+              <AutoStoriesIcon /> Reading Scientific Books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Rearching about latest tech
+              <ScreenSearchDesktopIcon /> Researching about latest tech
             </li>
           </ul>
 
