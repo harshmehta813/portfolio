@@ -1,41 +1,48 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiCodesandbox,
-  SiVisualstudiocode,
-  SiCodepen,
-  SiPostman,
-  SiHeroku,
-  SiGithub,
-  SiVercel
+	SiCodesandbox,
+	SiVisualstudiocode,
+	SiCodepen,
+	SiPostman,
+	SiHeroku,
+	SiGithub,
+	SiVercel
 } from "react-icons/si";
 
 function Toolstack() {
-  return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCodesandbox />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCodepen />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-    </Row>
-  );
+	return (
+		<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiVisualstudiocode />
+				<p>VS Code</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiGithub />
+				<p>Github</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiCodepen />
+				<p>Codepen</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiVercel />
+				<p>Vercel</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiPostman />
+				<p>Postman</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiHeroku />
+				<p>Heroku</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiCodesandbox />
+				<p>Codesandbox</p>
+			</Col>
+		</Row>
+	);
 }
 
 export default Toolstack;

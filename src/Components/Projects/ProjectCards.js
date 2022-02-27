@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BiLinkExternal } from "react-icons/bi";
+import { FiExternalLink,FiGithub } from "react-icons/fi";
 
 function ProjectCards(props) {
   return (
@@ -21,7 +21,7 @@ function ProjectCards(props) {
           href={props.link}
           target="_blank"
         >
-          <BiLinkExternal /> &nbsp; View Project
+          <FiExternalLink /> &nbsp; View Project
         </Button>
         <Button
           style={{ margin: "0.5rem" }}
@@ -29,7 +29,7 @@ function ProjectCards(props) {
           href={props.git}
           target="_blank"
         >
-          <BiLinkExternal /> &nbsp; View on GitHub
+          <FiGithub /> &nbsp; View on GitHub
         </Button>
       </Card.Body>
     </Card>
